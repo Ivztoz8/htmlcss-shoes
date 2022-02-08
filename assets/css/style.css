@@ -1,0 +1,40 @@
+/* Reset Pagina HTML*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Set up Pagina HTML*/
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  .h100{
+    height: 100vh;
+  }
+
+/* Page Commodity Blocks*/
+.commred100{
+    background-color: rgb(255, 0, 0);
+    position: relative;
+  }
+  
+.commgreen100{
+    background-color: rgb(0, 144, 17);
+    position: relative;
+  }
+
+.commyellow100{
+    background-color: rgb(242, 255, 0);
+    position: relative;
+  }  
+
+/* Reset Pagina HTML*/
