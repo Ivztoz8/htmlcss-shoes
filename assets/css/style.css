@@ -51,11 +51,19 @@ img{
     position: absolute;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Buttons */
+
 #button1{
     position: fixed;
-    font-size: 0.7em;
+    font-size: 0.5em;
     text-align: center;
-    padding: 1% 1.5%;
+    padding: 1% 1.6%;
     border-radius: 100%;
     left: 85%;
     background-color: white;
@@ -64,7 +72,7 @@ img{
 
 #button2{
     position: fixed;
-    font-size: 0.7em;
+    font-size: 0.5em;
     text-align: center;
     padding: 1% 1.5%;
     border-radius: 100%;
@@ -75,7 +83,7 @@ img{
 
 #button3{
     position: fixed;
-    font-size: 0.7em;
+    font-size: 0.5em;
     text-align: center;
     padding: 1% 1.5%;
     border-radius: 100%;
@@ -110,7 +118,6 @@ img{
     color: rgb(0, 144, 17);
 }
 
-.position{
-    
+.margint{
+    margin-top: 2%;
 }
-
