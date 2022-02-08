@@ -1,7 +1,9 @@
 /* Import Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
 
 /* Reset Pagina HTML */
+
 *{
     padding: 0;
     margin: 0;
@@ -25,8 +27,22 @@ body{
     font-size: 30px;
 }
   
+/* Mod Tags */
 
-/* Page Commodity Blocks */
+img{
+    float: left;
+    width: 45%;
+    transform: translate(65%, 10%);
+    position: absolute;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Page Blocks */
+
 .commred100{
     background-color: rgb(255, 0, 0);
     position: relative;
@@ -42,20 +58,17 @@ body{
     position: relative;
 }  
 
-/* Mod Tags */
-
-img{
+.block{
     float: left;
-    width: 45%;
-    transform: translate(65%, 10%);
+    width: 100%;
+    transform: translate(0%, -50%);
     position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 35%;
 }
-
-a{
-    text-decoration: none;
-    color: black;
-}
-
 
 /* Buttons */
 
@@ -69,6 +82,7 @@ a{
     background-color: white;
     z-index: 1;
 }
+
 
 #button2{
     position: fixed;
@@ -92,22 +106,17 @@ a{
     z-index: 1;
 }
 
+
+/* Shadows*/
+
+a:hover {
+    box-shadow: -3px 5px 5px  gray;
+}
+
 /* Utility */
 
 .h100{
     height: 100vh;
-}
-
-.block{
-    float: left;
-    width: 100%;
-    transform: translate(0%, -50%);
-    position: absolute;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-top: 35%;
 }
 
 .font-c-yl{
