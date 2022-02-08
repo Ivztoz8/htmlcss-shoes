@@ -1,4 +1,7 @@
-/* Reset Pagina HTML*/
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+
+/* Reset Pagina HTML */
 *{
     padding: 0;
     margin: 0;
@@ -11,30 +14,68 @@
     clear: both;
 }
 
-/* Set up Pagina HTML*/
+/* Set up Pagina HTML */
 
-html {
+html{
     scroll-behavior: smooth;
-  }
-  
-  .h100{
-    height: 100vh;
-  }
+}
 
-/* Page Commodity Blocks*/
+body{
+    font-family: 'Rowdies', cursive;
+    font-size: 30px;
+}
+  
+
+/* Page Commodity Blocks */
 .commred100{
     background-color: rgb(255, 0, 0);
     position: relative;
-  }
+}
   
 .commgreen100{
     background-color: rgb(0, 144, 17);
     position: relative;
-  }
+}
 
 .commyellow100{
     background-color: rgb(242, 255, 0);
     position: relative;
-  }  
+}  
 
-/* Reset Pagina HTML*/
+/* Mod Tags */
+
+img{
+    display: inline-block;
+    width: 40%;
+    transform: translate(50%, 30%);
+    position: absolute;
+    margin-left: 10%;
+}
+
+/* Utility */
+
+.h100{
+    height: 100vh;
+}
+
+.block{
+    display: inline-block;
+    width: 100%;
+    transform: translate(-10%, -8%);
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 35%;
+}
+
+.font-c-yl{
+    color: rgb(242, 255, 0);
+}
+
+.font-c-gr{
+    color: rgb(0, 144, 17);
+}
+
