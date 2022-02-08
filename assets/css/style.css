@@ -45,11 +45,43 @@ body{
 /* Mod Tags */
 
 img{
-    display: inline-block;
-    width: 40%;
-    transform: translate(50%, 30%);
+    float: left;
+    width: 45%;
+    transform: translate(65%, 10%);
     position: absolute;
-    margin-left: 10%;
+}
+
+#button1{
+    position: fixed;
+    font-size: 0.7em;
+    text-align: center;
+    padding: 1% 1.5%;
+    border-radius: 100%;
+    left: 85%;
+    background-color: white;
+    z-index: 1;
+}
+
+#button2{
+    position: fixed;
+    font-size: 0.7em;
+    text-align: center;
+    padding: 1% 1.5%;
+    border-radius: 100%;
+    left: 90%;
+    background-color: white;
+    z-index: 1;
+}
+
+#button3{
+    position: fixed;
+    font-size: 0.7em;
+    text-align: center;
+    padding: 1% 1.5%;
+    border-radius: 100%;
+    left: 95%;
+    background-color: white;
+    z-index: 1;
 }
 
 /* Utility */
@@ -59,15 +91,14 @@ img{
 }
 
 .block{
-    display: inline-block;
+    float: left;
     width: 100%;
-    transform: translate(-10%, -8%);
+    transform: translate(0%, -50%);
     position: absolute;
     text-align: center;
     text-transform: uppercase;
     font-size: 1.5em;
     font-weight: bold;
-    margin-left: 10%;
     margin-top: 35%;
 }
 
@@ -77,5 +108,9 @@ img{
 
 .font-c-gr{
     color: rgb(0, 144, 17);
+}
+
+.position{
+    
 }
 
