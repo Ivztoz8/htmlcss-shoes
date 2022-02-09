@@ -31,9 +31,7 @@ body{
 
 img{
     display: inline-block;
-    width: 45%;
-    transform: translate(65%, 10%);
-    position: absolute;
+    width: 60%;
 }
 
 a{
@@ -61,13 +59,10 @@ a{
 .block{
     display: inline-block;
     width: 100%;
-    transform: translate(0%, -50%);
-    position: absolute;
     text-align: center;
     text-transform: uppercase;
     font-size: 1.5em;
     font-weight: bold;
-    margin-top: 35%;
 }
 
 /* Buttons */
@@ -129,4 +124,12 @@ a:hover {
 
 .margint{
     margin-top: 2%;
+}
+
+.abso{
+    position: absolute;
+}
+
+.posi{
+    left:20%;
 }
