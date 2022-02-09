@@ -57,7 +57,7 @@ a{
 }  
 
 .block{
-    display: inline-block;
+    display: block;
     width: 100%;
     text-align: center;
     text-transform: uppercase;
@@ -131,5 +131,6 @@ a:hover {
 }
 
 .posi{
+    top: 10%;
     left:20%;
 }
