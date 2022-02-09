@@ -30,7 +30,7 @@ body{
 /* Mod Tags */
 
 img{
-    float: left;
+    display: inline-block;
     width: 45%;
     transform: translate(65%, 10%);
     position: absolute;
@@ -59,7 +59,7 @@ a{
 }  
 
 .block{
-    float: left;
+    display: inline-block;
     width: 100%;
     transform: translate(0%, -50%);
     position: absolute;
